@@ -25,12 +25,12 @@ func runEmbeddedCtx() {
 }
 
 func runArgsCtx() {
-
+	Args()
 }
 
 func main() {
 
-	ctx_mode := 1
+	ctx_mode := 2
 
 	if ctx_mode == 1 {
 		fmt.Println("Running Embedded Context")
